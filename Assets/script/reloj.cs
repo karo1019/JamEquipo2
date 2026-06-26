@@ -4,7 +4,8 @@ using TMPro; // para el texto
 public class reloj : MonoBehaviour
 {
     // simulacion del tiempo
-    public float duracion = 120f; // 120s = 2 minutos
+    public float duracion = 300f; // 120s = 2 minutos
+                                    // 240s = 4min,  300s = 5min
 
     public TextMeshProUGUI relojText; // referencia al texto
 
@@ -14,6 +15,7 @@ public class reloj : MonoBehaviour
     private int horas;
     private int minutos;
 
+    public GameObject CanvaUI; // referenia al canva principal
     public GameObject GameOver_final; // referencia al final por tiempo
 
 
@@ -53,6 +55,7 @@ public class reloj : MonoBehaviour
             // canva de perdida por tiempo
             if (GameOver_final != null)
             {
+                CanvaUI.SetActive(false);
                 GameOver_final.SetActive(true);
             }
 

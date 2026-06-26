@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14, y: 201}
+  m_AnchoredPosition: {x: 18, y: 218}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20445317
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 29.237122, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -628,8 +628,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802ee8df80dcdb744871309258baca38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::reloj
-  duracion: 120
+  duracion: 300
   relojText: {fileID: 20445317}
+  CanvaUI: {fileID: 1767323609}
   GameOver_final: {fileID: 1521876617}
 --- !u!4 &988580670
 Transform:
@@ -696,7 +697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.43867922, b: 0.43867922, a: 0.392}
+  m_Color: {r: 0.990566, g: 0.2569865, b: 0.2569865, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -836,7 +837,7 @@ GameObject:
   - component: {fileID: 1767323611}
   - component: {fileID: 1767323610}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Canvas(ui)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
