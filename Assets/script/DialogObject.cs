@@ -19,6 +19,9 @@ public class DialogObjeto : MonoBehaviour
     private bool playerHasInteracted;
     public AudioSource audioSource;
 
+    // msj de recogida 
+    public int ObjetoRecogido = 0; 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -114,5 +117,10 @@ public class DialogObjeto : MonoBehaviour
                 playerHasInteracted = true;
             }
         }
+    }
+
+    private void Recoger()
+    {
+       
     }
 }

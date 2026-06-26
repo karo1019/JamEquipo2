@@ -5,8 +5,6 @@ public class MenuInicio : MonoBehaviour
 {   
 
     public GameObject CanvaMenu; // referencia al menu de inicio
-    public GameObject botonplay; // referencia al boton de inicio
-    public GameObject botonquit; // referencia al boton de salir
 
     public int SceneBuildIndex;
 
@@ -27,14 +25,16 @@ public class MenuInicio : MonoBehaviour
     }
 
     // salir del juego
-    void QuitGame()
+    public void QuitGame()
     {
+        Debug.Log("quit");
         Application.Quit();
     }
 
     // iniciar juego
-    void play()
+    public void play()
     {
+        Debug.Log("poner");
         SceneManager.LoadScene(SceneBuildIndex, LoadSceneMode.Single);
     }
 }
