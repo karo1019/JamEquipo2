@@ -4820,8 +4820,8 @@ MonoBehaviour:
   esPuerta: 1
   ObjectToInteract: {fileID: 497909666}
   dialogueMark: {fileID: 1638594317}
-  dialoguePabel: {fileID: 1454166595}
-  dialogueText: {fileID: 2013703709}
+  dialoguePabel: {fileID: 1121176706}
+  dialogueText: {fileID: 481110276}
   dialogueLines:
   - "Oigo sus voces fuera del hotel, pidi\xE9ndome que los ayude, pero ya est\xE1n
     muertos \xBFNo? Tengo que comprobarlo\r\n "
@@ -6691,8 +6691,8 @@ MonoBehaviour:
   esPuerta: 1
   ObjectToInteract: {fileID: 598972401}
   dialogueMark: {fileID: 1604814813}
-  dialoguePabel: {fileID: 1454166595}
-  dialogueText: {fileID: 2013703709}
+  dialoguePabel: {fileID: 1121176706}
+  dialogueText: {fileID: 481110276}
   dialogueLines:
   - "\xBFImporta si un d\xEDa ya no abro los ojos? A pesar de estar con m\xE1s sobrevivientes
     no me siento acompa\xF1ado, hay d\xEDas que anhelo tanto un abrazo y solo puedo
@@ -7151,108 +7151,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5172121029582729801, guid: 8db810240fb648d4599e11215eeff1d6, type: 3}
   m_PrefabInstance: {fileID: 629992315}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &641739035
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 641739039}
-  - component: {fileID: 641739038}
-  - component: {fileID: 641739037}
-  - component: {fileID: 641739036}
-  m_Layer: 5
-  m_Name: Canvas(GameOver_tiempo)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &641739036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641739035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &641739037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641739035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &641739038
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641739035}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &641739039
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641739035}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1604082266}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &641937584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10012,8 +9910,8 @@ MonoBehaviour:
   esPuerta: 1
   ObjectToInteract: {fileID: 876616082}
   dialogueMark: {fileID: 1503163994}
-  dialoguePabel: {fileID: 1454166595}
-  dialogueText: {fileID: 2013703709}
+  dialoguePabel: {fileID: 1121176706}
+  dialogueText: {fileID: 481110276}
   dialogueLines:
   - "Cada noche escucho sus gritos, esos horrendos y guturales gritos que no me permiten
     dormir, ya no s\xE9 si son reales o solo me estoy volviendo loca, pero\u2026
@@ -10900,8 +10798,8 @@ MonoBehaviour:
   esPuerta: 1
   ObjectToInteract: {fileID: 935858468}
   dialogueMark: {fileID: 32279119}
-  dialoguePabel: {fileID: 1454166595}
-  dialogueText: {fileID: 2013703709}
+  dialoguePabel: {fileID: 1121176706}
+  dialogueText: {fileID: 481110276}
   dialogueLines:
   - "Cada respiraci\xF3n duele horriblemente, debo terminar con esto antes de hacerle
     da\xF1o a alguien del hotel, no quiero ser un problema como siempre, esta vez
@@ -12699,108 +12597,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121176706}
   m_CullTransparentMesh: 1
---- !u!1 &1137732244
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1137732248}
-  - component: {fileID: 1137732247}
-  - component: {fileID: 1137732246}
-  - component: {fileID: 1137732245}
-  m_Layer: 5
-  m_Name: Canvas(victoreia)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1137732245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1137732244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1137732246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1137732244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &1137732247
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1137732244}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1137732248
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1137732244}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2066141876}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1140742248
 GameObject:
   m_ObjectHideFlags: 0
@@ -14815,8 +14611,8 @@ MonoBehaviour:
   esPuerta: 1
   ObjectToInteract: {fileID: 1349828160}
   dialogueMark: {fileID: 911899428}
-  dialoguePabel: {fileID: 1454166595}
-  dialogueText: {fileID: 2013703709}
+  dialoguePabel: {fileID: 1121176706}
+  dialogueText: {fileID: 481110276}
   dialogueLines:
   - "Hoy es el mejor d\xEDa de este nuevo mundo, lo he decidido, por fin acabar\xE9
     con todo esto.\r\n "
@@ -17349,8 +17145,8 @@ MonoBehaviour:
   esPuerta: 1
   ObjectToInteract: {fileID: 1545499526}
   dialogueMark: {fileID: 964210810}
-  dialoguePabel: {fileID: 1454166595}
-  dialogueText: {fileID: 2013703709}
+  dialoguePabel: {fileID: 1121176706}
+  dialogueText: {fileID: 481110276}
   dialogueLines:
   - "Cre\xEDa que si el mundo cambiaba, que si todo se iba al carajo, podr\xEDa empezar
     desde cero, que borrar\xEDa mis errores, pero veo que solo me enga\xF1aba a mi
@@ -17930,81 +17726,6 @@ Transform:
   - {fileID: 2133550318}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1604082265
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1604082266}
-  - component: {fileID: 1604082268}
-  - component: {fileID: 1604082267}
-  m_Layer: 5
-  m_Name: Panel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1604082266
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1604082265}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 641739039}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1604082267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1604082265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.990566, g: 0.2569865, b: 0.2569865, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1604082268
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1604082265}
-  m_CullTransparentMesh: 1
 --- !u!1 &1604814813
 GameObject:
   m_ObjectHideFlags: 0
@@ -18498,7 +18219,7 @@ MonoBehaviour:
   tache5: {fileID: 1498285413}
   dialogoObjeto: {fileID: 0}
   probabilidadDeValor: 0.3
-  Victori: {fileID: 1137732244}
+  Victori: {fileID: 0}
 --- !u!114 &1676217475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18514,7 +18235,7 @@ MonoBehaviour:
   duracion: 300
   relojText: {fileID: 420106260}
   CanvaUI: {fileID: 1706267352}
-  GameOver_final: {fileID: 641739035}
+  GameOver_final: {fileID: 0}
 --- !u!4 &1676217476
 Transform:
   m_ObjectHideFlags: 0
@@ -21957,8 +21678,8 @@ MonoBehaviour:
   esPuerta: 1
   ObjectToInteract: {fileID: 1994958479}
   dialogueMark: {fileID: 2033450877}
-  dialoguePabel: {fileID: 1454166595}
-  dialogueText: {fileID: 2013703709}
+  dialoguePabel: {fileID: 1121176706}
+  dialogueText: {fileID: 481110276}
   dialogueLines:
   - "Una vez m\xE1s estoy en este dilema de tener que matar a alguien antes de que
     su situaci\xF3n empeore. No se hace m\xE1s f\xE1cil con el tiempo, por fortuna
@@ -22337,8 +22058,8 @@ MonoBehaviour:
   esPuerta: 1
   ObjectToInteract: {fileID: 2010549985}
   dialogueMark: {fileID: 311282854}
-  dialoguePabel: {fileID: 1454166595}
-  dialogueText: {fileID: 2013703709}
+  dialoguePabel: {fileID: 1121176706}
+  dialogueText: {fileID: 481110276}
   dialogueLines:
   - "La tragedia me acompa\xF1a en este maldito mundo incluso despu\xE9s de que se
     desmoronara, si contin\xFAo aqu\xED solo voy a perjudicar a los dem\xE1s, no
@@ -23119,81 +22840,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.703784, y: 0.19549704, z: 2.957868}
   m_Center: {x: 4.815249, y: 2.8761115, z: -0.38724405}
---- !u!1 &2066141875
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2066141876}
-  - component: {fileID: 2066141878}
-  - component: {fileID: 2066141877}
-  m_Layer: 5
-  m_Name: Panel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2066141876
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066141875}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1137732248}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2066141877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066141875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.07041359, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2066141878
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066141875}
-  m_CullTransparentMesh: 1
 --- !u!1001 &2085931354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24288,7 +23934,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1596584855}
   - {fileID: 416419425}
-  - {fileID: 641739039}
   - {fileID: 561827512}
   - {fileID: 1706267353}
   - {fileID: 2144828296}
@@ -24296,7 +23941,6 @@ SceneRoots:
   - {fileID: 765532618}
   - {fileID: 1022661703}
   - {fileID: 1676217476}
-  - {fileID: 1137732248}
   - {fileID: 829002057}
   - {fileID: 1714126479}
   - {fileID: 876616090}

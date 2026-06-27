@@ -25,6 +25,6 @@ public class MenuInicio : MonoBehaviour
     // iniciar juego
     public void Jugar()
     {
-        SceneManager.LoadScene("Lv_player"); // nombre de la escena
+        SceneManager.LoadScene("Tutorial"); // nombre de la escena
     }
 }
