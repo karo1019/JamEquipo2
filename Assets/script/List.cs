@@ -11,10 +11,18 @@ public class List : MonoBehaviour
     public GameObject tache4;
     public GameObject tache5;
 
+    [SerializeField] private DialogObjeto dialogoObjeto; // referencia al scrip de onjeto
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private int contadorObjetos = 0; // rejistra los objetos de valor
+
+    // probabilidad de ser de valor
+    [SerializeField, Range(0f, 1f)] private float probabilidadDeValor = 0.3f; // 30%
+
+
+    // Start
     void Start()
     {
+
         // esconde los taches de la lista
         if (tache != null)
         {
@@ -25,11 +33,61 @@ public class List : MonoBehaviour
             tache4.SetActive(false);
             tache5.SetActive(false);
         }
+
+        // eventarse a todos los onjetos
+        DialogObjeto[] dialogos = FindObjectsOfType<DialogObjeto>();
+
+        foreach (DialogObjeto d in dialogos)
+        {
+            d.OnObjetoInteractuado += Valorar;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    // asigna un valor al objeto recojido de forma aleatoria 
+    private void Valorar()
+    {
+        int res = (Random.value < probabilidadDeValor) ? 1 : 0; // da valor entre 0 y 1 con preferencia a 0
+
+        if (res == 1)
+        {
+            contadorObjetos++;
+
+            switch (contadorObjetos)
+            {
+                case 1: tache.SetActive(true);
+                    break;
+                case 2:
+                    tache1.SetActive(true);
+                    break;
+                case 3:
+                    tache2.SetActive(true);
+                    break;
+                case 4:
+                    tache3.SetActive(true);
+                    break;
+                case 5:
+                    tache4.SetActive(true);
+                    break;
+                case 6:
+                    tache5.SetActive(true);
+                    break;
+            }
+        }
+    }
+
+        // desenventarse de todos los objetos
+     void OnDestroy()
+    {
+        DialogObjeto[] dialogos = FindObjectsOfType<DialogObjeto>();
+        foreach (DialogObjeto d in dialogos)
+        {
+            d.OnObjetoInteractuado -= Valorar;
+        }
     }
 }
