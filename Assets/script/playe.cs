@@ -3,6 +3,10 @@ using UnityEngine.InputSystem; // nuevo sistema :p
 
 public class playe : MonoBehaviour
 {
+   
+    public static int interactionCounter; //Para contar los objetos con los q el jugador ha interactuado
+    public static int badinteractionCounter; //Para contar los objetos que te mandan a final malo/todavia 
+    public static int KeyinteractionCounter; //Para desbloquear puertas, igual creo esta facil si tienen orden solo es ponerle if > numerodellave se desbloquea puerta?
 
     public float velocidad; // velocidad de movimiento del jugador
 
@@ -16,6 +20,11 @@ public class playe : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
+
+        //El jugador inicia con 0 llaves
+        KeyinteractionCounter = 0;
+
         // otener el componente del jugador
         rb = GetComponent<Rigidbody>();
 
@@ -55,6 +64,17 @@ public class playe : MonoBehaviour
 
         // movimiento del jugador respetando fisica
         rb.MovePosition(transform.position + moveDirection * Time.fixedDeltaTime);
+
+        if (DialogManager.Instance != null && DialogManager.Instance.IsDialogActive())
+        {
+            GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+        }
+        else
+        {
+            rb.constraints = RigidbodyConstraints.None;
+            rb.freezeRotation = true;
+        }
+
     }
 
 }

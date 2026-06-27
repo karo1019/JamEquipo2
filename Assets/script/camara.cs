@@ -4,7 +4,7 @@ using UnityEngine.InputSystem; // nuevo sistema :p
 public class camara : MonoBehaviour
 {
 
-    public float sensitivity = 100f; // sensibilidad del raton
+    public float sensitivity = 10f; // sensibilidad del raton
     public Transform playerbody; // referencia al cuerpo del jugadro
 
     // movimineto del raton
