@@ -18,6 +18,8 @@ public class List : MonoBehaviour
     // probabilidad de ser de valor
     [SerializeField, Range(0f, 1f)] private float probabilidadDeValor = 0.3f; // 30%
 
+    public GameObject Victori; // refrerencia al canva de victoria
+
 
     // Start
     void Start()
@@ -76,6 +78,12 @@ public class List : MonoBehaviour
                     break;
                 case 6:
                     tache5.SetActive(true);
+
+                    // aparece el canva de victoria
+                    if(Victori != null)
+                    {
+                        Victori.SetActive(true);
+                    }
                     break;
             }
         }
