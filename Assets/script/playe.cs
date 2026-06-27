@@ -15,7 +15,7 @@ public class playe : MonoBehaviour
     private Rigidbody rb;
 
     public Transform camarabody; // referencia a la camara del jugador
-
+    private AudioSource audioSource; // tomamos una fuente de ausudo
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,6 +30,9 @@ public class playe : MonoBehaviour
 
         // evitar q el personaje se voltee al chocar
         rb.freezeRotation = true;
+
+        //Jala el sonido
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -75,6 +78,17 @@ public class playe : MonoBehaviour
             rb.freezeRotation = true;
         }
 
+
+        // Si el jugador se mueve se escuchan sus pasos
+        if (moveInput.x != 0 || moveInput.y != 0)
+        {
+            if (!audioSource.isPlaying)
+                audioSource.Play();
+        }
+        else
+        {
+            audioSource.Stop();
+        }
     }
 
 }
