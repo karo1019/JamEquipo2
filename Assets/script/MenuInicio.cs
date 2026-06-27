@@ -6,9 +6,7 @@ public class MenuInicio : MonoBehaviour
 
     public GameObject CanvaMenu; // referencia al menu de inicio
 
-    public int SceneBuildIndex;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         // mostrar el canva menu al iniciar el nivel
@@ -18,23 +16,15 @@ public class MenuInicio : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     // salir del juego
-    public void QuitGame()
+    public void Salir()
     {
-        Debug.Log("quit");
         Application.Quit();
     }
 
     // iniciar juego
-    public void play()
+    public void Jugar()
     {
-        Debug.Log("poner");
-        SceneManager.LoadScene(SceneBuildIndex, LoadSceneMode.Single);
+        SceneManager.LoadScene("Lv_player"); // nombre de la escena
     }
 }
