@@ -1242,7 +1242,7 @@ MonoBehaviour:
   ObjectToInteract: {fileID: 285476067}
   dialogueMark: {fileID: 230226299}
   dialoguePabel: {fileID: 2012327538}
-  dialogueText: {fileID: 1070334095}
+  dialogueText: {fileID: 228745799}
   dialogueLines:
   - "\xBFQue las cosas mejoraran? \xBFQu\xE9 vuelva a sonre\xEDr? Que mont\xF3n de
     estupideces, el mundo est\xE1 jodido al igual que todos nosotros. Solo quiero
